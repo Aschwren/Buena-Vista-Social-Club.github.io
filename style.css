@@ -122,17 +122,6 @@ max-height: 150px;
 	text-align: center;
 	align-items: center;
 }
-
-.arrondi
-{
-	/*
-	border-radius: 50%;
-	width: 30%;
-	height: 30%;
-	max-width: 100px;
-	max-height: 50px;
-	*/
-}
 .jp img:hover, .pj img:focus
 {
 	width: 50%;
@@ -143,4 +132,15 @@ max-height: 150px;
 	width: 25%;
 	height: 25%;
 	border-radius:50%;
+}
+.iframe2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+.avatar 
+{
+	border-radius: 50%; /* Cercle parfait */
 }
